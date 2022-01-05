@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #3c484e;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #089408 100%);
+}
+.Header h1 a {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: auto;
+  color: white;
+  text-decoration: none;
+}
+.Header-nav a {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  color: white;
+  text-decoration: none;
+}
+
+.Main {
+  height: auto;
+  width: 100%;
+  height: auto;
+  min-width: 320px;
+}
+#content {
+  width: 100%;
+  height: auto;
+  min-width: 320px;
+  padding: 20px 10px;
+  background-color: #201e1c;
+}
+.Characters {
+}
+
+.Characters-inner {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: auto;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.Characters-inner a {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+.Characters-inner a img {
+  width: 100%;
+}
+.Characters-inner a h2 {
+  font-size: 2.4rem;
+  outline: none;
+  text-decoration: none;
+}
+
+.Characters-card {
+  text-decoration: none;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
+    1px 3px 8px rgba(39, 44, 49, 0.03);
+  border-radius: 5px;
+  margin: 0 0 20px 0;
+  display: block;
+  animation-duration: 2s;
+  animation-name: fade;
+}
+
+.Characters-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.Characters-card h2 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.Characters-card h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin: 20px;
+}
+
+.Characters-item {
+  text-decoration: none;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
+    1px 3px 8px rgba(39, 44, 49, 0.03);
+  border-radius: 5px;
+  margin: 0 0 20px 0;
+  display: block;
+  animation-duration: 2s;
+  animation-name: fade;
+}
+
+.Characters-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.Characters-item h2 {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Characters-item a {
+  text-decoration: none;
+  color: #026c86;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Main-loading {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
