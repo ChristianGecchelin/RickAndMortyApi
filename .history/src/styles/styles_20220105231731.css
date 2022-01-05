@@ -103,16 +103,16 @@ body {
 }
 
 .Characters-card h2 {
-  font-size: 2.5rem;
+  font-size: 18px;
   font-weight: 400;
   text-align: center;
 }
 
 .Characters-card h3 {
-  font-size: 1.8rem;
+  font-size: 18px;
   font-weight: 400;
-  margin: 0 auto;
-  line-height: 3rem;
+  text-align: left;
+  margin: 20px;
 }
 
 .Characters-item {

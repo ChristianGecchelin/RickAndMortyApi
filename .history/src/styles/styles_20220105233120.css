@@ -109,10 +109,9 @@ body {
 }
 
 .Characters-card h3 {
-  font-size: 1.8rem;
+  font-size: 18px;
   font-weight: 400;
   margin: 0 auto;
-  line-height: 3rem;
 }
 
 .Characters-item {
